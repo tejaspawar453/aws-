@@ -1,0 +1,83 @@
+  114  lsblk
+  115  ls -l /dev/
+  116  #ls -l /dev/
+  117  date
+  118  lsblk
+  119  fdisk /dev/nvme1n1
+  120  sudo fdisk /dev/nvme1n1
+  121  lsblk
+  122  ls /sbin/*.ext*
+  123  mkfs.ext4 /dev/nvme1n1p1
+  124  #sudo mkfs.ext4 /dev/nvme1n1p1
+  125  blkid
+  126  blkid -l
+  127  blkid -a
+  128  blkid --help
+  129  blkid -k
+  130  blkid
+  131  exit
+  132  blkid
+  133  #sudo mkfs.ext4 /dev/nvme1n1p1
+  134  lsblk
+  135  file -s
+  136  file /dev/nvme1n1p1
+  137  file -s /dev/nvme1n1p1
+  138  sudo file -s /dev/nvme1n1p1
+  139  ls
+  140  touch f1
+  141  file f1
+  142* mkdir
+  143  file d1
+  144  file -s d1
+  145  #sudo file -s /dev/nvme1n1p1
+  146  blkid
+  147  lsblk
+  148  blkid
+  149  sudo file -s /dev/nvme1n1p1
+  150  sudo file -s /dev/nvme*
+  151  sudo file -s /dev/nvme1n1p5
+  152  sudo mkfs.xfs /dev/nvme1n1p5
+  153* sudo file -s /dev/nvme1n1p6
+  154  blkid
+  155  blkid -h
+  156  lsblk -f
+  157  #lsblk -f
+  158  sudo mkfs.ext3 /dev/nvme1n1p6
+  159  lsblk -f
+  160  vim /etc/fstab
+  161  sudo vim /etc/fstab
+  162  lsblk -f
+  163  sudo vim /etc/fstab
+  164  ls
+  165  pwd
+  166  ls .mn
+  167  ls /mnt/
+  168
+  169  ls /mnt/
+  170  mkdir /mnt/v1 /mnt/v2 /mnt/v3
+  171  sudo mkdir /mnt/v1 /mnt/v2 /mnt/v3
+  172  ls /mnt/
+  173  sudo vim /etc/fstab
+  174  lsblk
+  175  . /etc/fstab
+  176  /etc/fstab .
+  177  sudo /etc/fstab .
+  178  . ./etc/fstab
+  179  /etc/fstab
+  180  mount -a
+  181  sudo mount -a
+  182  lsblk
+  183  sudo vim /etc/fstab
+  184  lsblk
+  185  sudo mount -a
+  186  lsblk
+  187  mount /dev/nvme1n1p6 /mnt/v3
+  188  lsblk
+  189  sudo mount /dev/nvme1n1p6 /mnt/v3
+  190  lsblk
+  191  sudo touch /mnt/v1/v1_file.txt  /mnt/v2/v2_file.txt /mnt/v3/v3_file.txt
+  192  tree /mnt/
+  193  history
+  
+  
+  
